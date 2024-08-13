@@ -1,0 +1,58 @@
+body{
+    background: #24353f; 
+    color: white;
+    /* font-family: 'Titillium Web', sans-serif; */
+} 
+.picture{
+    width: 100%; 
+    height: 300px;
+} 
+header{ 
+    background-image: url(../img/bgs.jpg); 
+    background-size: 100% 100%;
+    height: 100vh; 
+    background-color: aqua;
+} 
+.layer{
+    background-color: rgba(0, 0, 0, 0.612); 
+    width: 100%; 
+    height: 100%;
+} 
+p{
+   font-size: 20px; ;
+} 
+h1{
+    font-size: 76px;
+    font-family: "Alegreya Sans";
+} 
+h2{ 
+    margin: 20px 0px;
+    font-family: "Alegreya Sans"; 
+    position: relative;
+} 
+h2::after{
+    content: "";
+    width: 15%; 
+    height: 10%; 
+   background-color: rgb(113, 50, 143);
+    position: absolute; 
+    top: 120%;  
+    left: 50%; 
+    transform: translate(-50%); 
+   
+} 
+img{
+transition: all 1.5;
+} 
+img:hover{
+    transform: scale(1.2);
+} 
+.item{
+    overflow: hidden;
+} 
+.navbar{
+    z-index: 9999;
+} 
+.navbar a{
+    cursor: pointer;
+}
